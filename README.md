@@ -18,7 +18,7 @@
 <a href="https://twitter.com/@sajalmo12942950" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@sajalmo12942950" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/sajal-mondal-2226a8221" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sajal-mondal-2226a8221" height="30" width="40" /></a>
 <a href="https://www.facebook.com/iamsajalmondal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/iamsajalmondal" height="30" width="40" /></a>
-<a href="https://instagram.com/https://www.instagram.com/iamsajalmondal/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/iamsajalmondal/" height="30" width="40" /></a>
+<a href="https://www.instagram.com/iamsajalmondal/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/iamsajalmondal/" height="30" width="40" /></a>
 <a href="https://www.youtube.com/channel/UCaN_fqhjfd8_SJOlXV4s2kg" target="_blank">
   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@vlogwithsajal8512" height="30" width="40" />
 </a>
