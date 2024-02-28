@@ -1,6 +1,6 @@
 ![MasterHead](https://static.wixstatic.com/media/3eee0b_8b6780c6bd8245ecafdbe55d8db7e2df~mv2.gif)
 <h1 align="center">Hi 👋, I'm Sajal Mondal</h1>
-<h3 align="center">An AI/ML Engineer, advancing technology with passion</h3>
+<h3 align="center">An AI/ML Engineer, Advancing Technology with Passion</h3>
 <img align='right' alt="Coding" width="400" src="https://static.wixstatic.com/media/3eee0b_4c0b4d2c5e9d4c5f84473048443b358b~mv2.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=iamsajalmondal&label=Profile%20views&color=0e75b6&style=flat" alt="iamsajalmondal" /> </p>
