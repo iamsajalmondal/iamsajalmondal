@@ -19,12 +19,15 @@
         header img {
             max-width: 100%;
             height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         section {
             margin: 20px auto;
             padding: 20px;
             max-width: 900px;
             background: #fff;
+            border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         h1, h3 {
@@ -32,7 +35,11 @@
             color: #333;
         }
         .social-links img {
-            margin: 0 5px;
+            margin: 0 10px;
+            transition: transform 0.2s;
+        }
+        .social-links img:hover {
+            transform: scale(1.2);
         }
         .stats {
             display: flex;
@@ -42,6 +49,21 @@
         }
         .stats img {
             max-width: 100%;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .profile-stats {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .profile-stats img {
+            border: 2px solid #4caf50;
+            padding: 5px;
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -52,11 +74,13 @@
         <h3>An AI/ML Engineer, Advancing Technology with Passion</h3>
     </header>
     <section>
-        <img src="https://static.wixstatic.com/media/3eee0b_4c0b4d2c5e9d4c5f84473048443b358b~mv2.gif" alt="Coding" style="float:right; max-width:400px; margin:10px;">
-        <p><img src="https://komarev.com/ghpvc/?username=iamsajalmondal&label=Profile%20views&color=0e75b6&style=flat" alt="iamsajalmondal" /></p>
-        <p><a href="https://twitter.com/@sajalmo12942950" target="blank">
-            <img src="https://img.shields.io/twitter/follow/@sajalmo12942950?logo=twitter&style=for-the-badge" alt="Twitter"></a>
-        </p>
+        <div class="profile-stats">
+            <img src="https://komarev.com/ghpvc/?username=iamsajalmondal&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views">
+            <a href="https://twitter.com/@sajalmo12942950" target="_blank">
+                <img src="https://img.shields.io/twitter/follow/@sajalmo12942950?logo=twitter&style=for-the-badge" alt="Twitter">
+            </a>
+        </div>
+        <img src="https://static.wixstatic.com/media/3eee0b_4c0b4d2c5e9d4c5f84473048443b358b~mv2.gif" alt="Coding" style="float:right; max-width:400px; margin:10px; border-radius:8px; box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);">
         <ul>
             <li>🔭 I’m currently working on <b>NBA Prediction Dataset</b></li>
             <li>💬 Ask me about <b>Python, Machine Learning, Deep Learning, NLP, LLM, Computer Vision, SQL, Power Bi</b></li>
@@ -66,16 +90,16 @@
     <section>
         <h3>Connect with me:</h3>
         <p class="social-links">
-            <a href="https://twitter.com/@sajalmo12942950" target="blank">
+            <a href="https://twitter.com/@sajalmo12942950" target="_blank">
                 <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40">
             </a>
-            <a href="https://linkedin.com/in/sajal-mondal-2226a8221" target="blank">
+            <a href="https://linkedin.com/in/sajal-mondal-2226a8221" target="_blank">
                 <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40">
             </a>
-            <a href="https://www.facebook.com/iamsajalmondal" target="blank">
+            <a href="https://www.facebook.com/iamsajalmondal" target="_blank">
                 <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40">
             </a>
-            <a href="https://www.instagram.com/iamsajalmondal/" target="blank">
+            <a href="https://www.instagram.com/iamsajalmondal/" target="_blank">
                 <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40">
             </a>
             <a href="https://www.youtube.com/channel/UCaN_fqhjfd8_SJOlXV4s2kg" target="_blank">
@@ -95,9 +119,9 @@
     </section>
     <section>
         <div class="stats">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamsajalmondal&layout=compact" alt="iamsajalmondal">
-            <img src="https://github-readme-stats.vercel.app/api?username=iamsajalmondal&show_icons=true" alt="iamsajalmondal">
-            <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamsajalmondal" alt="iamsajalmondal">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamsajalmondal&layout=compact" alt="Top Languages">
+            <img src="https://github-readme-stats.vercel.app/api?username=iamsajalmondal&show_icons=true" alt="GitHub Stats">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamsajalmondal" alt="GitHub Streak">
         </div>
     </section>
 </body>
