@@ -1,69 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Interactive README</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: white;
+            overflow-x: hidden;
         }
+
         header {
             text-align: center;
-            padding: 20px;
-            background-color: #4caf50;
-            color: white;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #4caf50, #81c784);
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
         }
+
         header img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 150px;
+            border-radius: 50%;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            transform: translateZ(0);
         }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-top: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        header h3 {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            color: #f5f5f5;
+        }
+
         section {
             margin: 20px auto;
             padding: 20px;
             max-width: 900px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background: #1f2937;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
         }
-        h1, h3 {
+
+        h3 {
             text-align: center;
-            color: #333;
+            margin-bottom: 20px;
+            color: #4caf50;
         }
-        .social-links img {
-            margin: 0 10px;
-            transition: transform 0.2s;
-        }
-        .social-links img:hover {
-            transform: scale(1.2);
-        }
-        .stats {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .stats img {
-            max-width: 100%;
-            margin: 10px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+
         .profile-stats {
             display: flex;
             justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
             gap: 20px;
         }
+
         .profile-stats img {
             border: 2px solid #4caf50;
-            padding: 5px;
             border-radius: 50%;
+            transition: transform 0.3s;
+        }
+
+        .profile-stats img:hover {
+            transform: scale(1.2) rotate(360deg);
+        }
+
+        .social-links img {
+            margin: 0 10px;
+            height: 40px;
+            transition: transform 0.3s;
+        }
+
+        .social-links img:hover {
+            transform: scale(1.2) rotate(-20deg);
+        }
+
+        .languages-tools img {
+            margin: 10px;
+            transition: transform 0.3s, filter 0.3s;
+        }
+
+        .languages-tools img:hover {
+            transform: scale(1.1);
+            filter: brightness(1.5);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .stats img {
+            max-width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+
+        .stats img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: #0f172a;
+            color: #4caf50;
         }
     </style>
 </head>
@@ -80,7 +132,6 @@
                 <img src="https://img.shields.io/twitter/follow/@sajalmo12942950?logo=twitter&style=for-the-badge" alt="Twitter">
             </a>
         </div>
-        <img src="https://static.wixstatic.com/media/3eee0b_4c0b4d2c5e9d4c5f84473048443b358b~mv2.gif" alt="Coding" style="float:right; max-width:400px; margin:10px; border-radius:8px; box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);">
         <ul>
             <li>🔭 I’m currently working on <b>NBA Prediction Dataset</b></li>
             <li>💬 Ask me about <b>Python, Machine Learning, Deep Learning, NLP, LLM, Computer Vision, SQL, Power Bi</b></li>
@@ -91,38 +142,39 @@
         <h3>Connect with me:</h3>
         <p class="social-links">
             <a href="https://twitter.com/@sajalmo12942950" target="_blank">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40">
+                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter">
             </a>
             <a href="https://linkedin.com/in/sajal-mondal-2226a8221" target="_blank">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40">
+                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn">
             </a>
             <a href="https://www.facebook.com/iamsajalmondal" target="_blank">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40">
+                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook">
             </a>
             <a href="https://www.instagram.com/iamsajalmondal/" target="_blank">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40">
+                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram">
             </a>
             <a href="https://www.youtube.com/channel/UCaN_fqhjfd8_SJOlXV4s2kg" target="_blank">
-                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="30" width="40">
+                <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube">
             </a>
         </p>
     </section>
     <section>
         <h3>Languages and Tools:</h3>
-        <p>
+        <div class="languages-tools">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40">
             <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV" width="40" height="40">
             <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" width="40" height="40">
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40">
-        </p>
+        </div>
     </section>
     <section>
+        <h3>Stats:</h3>
         <div class="stats">
             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamsajalmondal&layout=compact" alt="Top Languages">
             <img src="https://github-readme-stats.vercel.app/api?username=iamsajalmondal&show_icons=true" alt="GitHub Stats">
             <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamsajalmondal" alt="GitHub Streak">
         </div>
     </section>
-</body>
-</html>
+    <footer>
+        <p>Crafted
